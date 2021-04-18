@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+selenium = "*"
+requests = "*"
+numpy = "*"
+pandas = "*"
+beautifulsoup4 = "*"
+lxml = "*"
+pymongo = {extras = ["srv"], version = "*"}
+html5lib = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
